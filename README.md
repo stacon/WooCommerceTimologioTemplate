@@ -1,7 +1,7 @@
 # WooCommerceTimologioTemplate
 
 <h2>Description</h2>
-This template offers the ability to print VAT number and DOY in the pdf invoice.
+This template offers the ability to print VAT number(ΑΦΜ) and Tax Office(ΔΟΥ) in the pdf invoice (English or Greek Template).
 
 <h2>Requirements</h2>
 <ul>
@@ -11,8 +11,8 @@ This template offers the ability to print VAT number and DOY in the pdf invoice.
 
 <h2>Installation</h2>
 <ol>
-<li>Use your FTP and Navigate to /wp-content/uploads/woocommerce-pdf-invoices/templates/invoice/simple and place TimologioTemplate folder there.</li>
-<li>On your WordPress Dashboard navigate to: WooCommerce->Invoices->Templates Tab(Top)->and select TimologioTemplate from dropdown list!</li>
+<li>Use your FTP and Navigate to /wp-content/uploads/woocommerce-pdf-invoices/templates/invoice/simple and place TimologioTemplateXX (where XX EN-English or GR-Greek resepctively) folder there.</li>
+<li>On your WordPress Dashboard navigate to: WooCommerce->Invoices->Templates Tab(Top)->and select TimologioTemplateXX from dropdown list!</li>
 <li><strong>Done!</strong></li>
 </ol>
 
@@ -33,5 +33,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
+<h2>Issues</h2>
+The document's title (e.g. Invoice) is being passed based on your plugin's language.
+
 ChangeLog
 - 1.0.0 Initial Commit
+- 1.1.0 The template is now splitted in two different versions based on language (Greek and English)
