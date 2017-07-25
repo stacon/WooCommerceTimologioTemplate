@@ -36,6 +36,7 @@ You should have received a copy of the GNU General Public License along with thi
 <h2>Issues</h2>
 The document's title (e.g. Invoice) is being passed based on your plugin's language.
 
-ChangeLog
+
+<h2>ChangeLog</h2>
 - 1.0.0 Initial Commit
 - 1.1.0 The template is now splitted in two different versions based on language (Greek and English)
