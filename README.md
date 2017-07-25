@@ -1,5 +1,5 @@
 # WooCommerceTimologioTemplate
-<hr>
+
 <h2>Description</h2>
 This template offers the ability to print VAT number and DOY in the pdf invoice.
 
@@ -23,7 +23,7 @@ Timologio for WooCommerce 161122<br>
 PHP 5.4+<br>
 Apache 2.1+<br>
 
-<hr>
+
 <h2>License</h2>
 Copyright (C) 2017 Constantinos Stathis constantinos-@hotmail.com
 
