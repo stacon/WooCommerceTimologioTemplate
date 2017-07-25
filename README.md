@@ -17,11 +17,11 @@ This template offers the ability to print VAT number and DOY in the pdf invoice.
 </ol>
 
 <h3>Tested on </h3>
-WordPress: 4.8
-WooCommerce PDF Invoices 2.9.3
-Timologio for WooCommerce 161122
-PHP 5.4+
-Apache 2.1+
+WordPress: 4.8<br>
+WooCommerce PDF Invoices 2.9.3<br>
+Timologio for WooCommerce 161122<br>
+PHP 5.4+<br>
+Apache 2.1+<br>
 
 <hr>
 <h2>License</h2>
