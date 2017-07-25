@@ -1,0 +1,126 @@
+table, tr, td, div, p {
+    /*border:1px solid black;*/
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding:0;
+    margin:0;
+}
+
+table, div {
+    font-family: dejavusanscondensed, Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    line-height: normal;
+    color: #555;
+    font-size: 12px;
+    margin-left: 60px; /* Invoice margin */
+    margin-right: 60px; /* Invoice margin */
+}
+
+table td, table th {
+    padding:5px;
+    vertical-align:top;
+    line-height: inherit;
+}
+
+table tr.top td {
+   padding-top: 40px;
+}
+
+/* Invoice information */
+table tr.top td:nth-child(2){
+    text-align:right;
+}
+
+div.title div {
+    padding: 5px;
+    width: 40%;
+    float: left;
+    margin-left: 60px; /* Invoice margin */
+    line-height: 55px;
+}
+
+div.title div.watermark {
+    float: right;
+    margin-right: 60px; /* Invoice margin */
+    line-height: normal;
+}
+
+div.title div.watermark h2.rubber-stamp {
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+    border: 3px solid green;
+    padding: 10px 7px;
+    border-radius: 10px;
+    opacity: 0.8;
+    text-align: center;
+    width: 130px;
+    float:right;
+}
+
+table tr.information td {
+    padding-bottom: 20px;
+}
+
+/* Customer billing address */
+table tr.information td:nth-child(3){
+    text-align: right;
+}
+
+table tr.heading th {
+    font-weight: bold;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+table tr.item td{
+    border-bottom: 1px solid #eee;
+}
+
+table tr.spacer td {
+    padding-top: 20px;
+}
+
+/* Totals */
+table tr.total td.border {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+small.shipped_via {
+    display: none;
+}
+
+/* Dynamic class */
+table tr.total td.order-total{
+    border-top: 2px solid #000;
+}
+
+table.notes {
+    margin-top: 40px;
+}
+
+div.terms {
+    margin-top: 40px;
+    position: absolute;
+    bottom: 70px;
+}
+
+table.footer {
+    padding-top: 20px;
+    padding-bottom: 20px; /* Invoice margin */
+    width: 100%;
+}
+
+table.footer tr td {
+    vertical-align: bottom;
+}
+
+table.footer tr td:nth-child(2) {
+    text-align: right;
+}

@@ -126,13 +126,13 @@ $doi_name						= $templater->get_meta( '_billing_doy' ); // Var from Timologio p
 
 			if ( $vat_number ) {
 
-				echo '<br>' . 'ΑΦΜ: ' . $vat_number;
+				echo '<br>' . 'VAT Number: ' . $vat_number;
 
 			}
 
 			if ( $doi_name ) {
 
-				echo '<br>' . 'ΔΟΥ: ' . $doi_name;
+				echo '<br>' . 'Tax Office: ' . $doi_name;
 
 			}
 			// CODE END
