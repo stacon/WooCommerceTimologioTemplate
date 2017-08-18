@@ -1,4 +1,5 @@
-# WooCommerceTimologioTemplate
+# WooCommerce
+Template
 
 <h2>Description</h2>
 This template offers the ability to print VAT number(ΑΦΜ) and Tax Office(ΔΟΥ) in the pdf invoice (English or Greek Template).
@@ -11,8 +12,8 @@ This template offers the ability to print VAT number(ΑΦΜ) and Tax Office(ΔΟ
 
 <h2>Installation</h2>
 <ol>
-<li>Use your FTP and Navigate to /wp-content/uploads/woocommerce-pdf-invoices/templates/invoice/simple and place TimologioTemplateXX (where XX EN-English or GR-Greek resepctively) folder there.</li>
-<li>On your WordPress Dashboard navigate to: WooCommerce->Invoices->Templates Tab(Top)->and select TimologioTemplateXX from dropdown list!</li>
+<li>Use your FTP and Navigate to /wp-content/uploads/woocommerce-pdf-invoices/templates/invoice/simple and place the template en-English or gr-Greek resepctively) folder there.</li>
+<li>On your WordPress Dashboard navigate to: WooCommerce->Invoices->Templates Tab(Top)->and select <strong>en</strong> or <strong>gr</strong> from dropdown list!</li>
 <li><strong>Done!</strong></li>
 </ol>
 
@@ -40,3 +41,4 @@ The document's title (e.g. Invoice) is being passed based on your plugin's langu
 <h2>ChangeLog</h2>
 - 1.0.0 Initial Commit
 - 1.1.0 The template is now splitted in two different versions based on language (Greek and English)
+- 1.1.1 Renamed templates to non-capital names (because they couldn't be saved after picking them)
